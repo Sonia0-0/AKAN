@@ -28,6 +28,14 @@ function getAkanName() {
       "You were born on a " + weekDays[dayBorn] + ", and your Akan name is " + maleNames[dayBorn]
     );
   }
+  
+  else {
+    alert(
+      "You were born on a " + weekDays[dayBorn] + ", and your Akan name is " + femaleNames[dayBorn]
+    );
+  }  
+
+
 
 
 
