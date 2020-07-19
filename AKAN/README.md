@@ -34,11 +34,25 @@ This is a project that establishes the birth date, month and year of either a ma
 - INPUT: "Click Clear Button" 
 - OUTPUT: "Clears and Resets the Form"
 
+## Development
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+- Fork the repo
+- Create a new branch (git checkout -b improve-feature)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (git commit -am 'Improve feature')
+- Push to the branch (git push origin improve-feature)
+- Create a Pull Request
 
 
 
-## Link to live site on Github Pages
- https://sonia0-0.github.io/AKAN/.
+
+
+## Link to live site on Github Pages## Development
+   https://sonia0-0.github.io/AKAN/.
 
  ## Support and Contact Details
  Incase of anything reach out to me via email at soniamakena02@gmail.com.
