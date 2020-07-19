@@ -22,7 +22,7 @@ This is a project that establishes the birth date, month and year of either a ma
  https://sonia0-0.github.io/AKAN/.
 
  ## Support and Contact Details
- Incase of anything reach out to me via email at soniamakena02@gmail.com for help.
+ Incase of anything reach out to me via email at soniamakena02@gmail.com.
 
  ## Lincense
 
