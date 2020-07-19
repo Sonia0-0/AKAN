@@ -14,31 +14,35 @@
             <p>The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast. They have a fairly unique naming system, which is based on the day in the week a child is born, and on the gender of the child. So a boy born on a Monday would be named Kwadwo or Koho, and a girl would be called Adwoa. Each day has one or more variants, but there's usually not much to choose from. </p>
             <p>Fill the form below to get your Akan name.</p>
         </div>
-        <form>
+        <form action="">
             <div class="form-group">
-              <label for="formGroupExampleInput">Example label</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+              <label for="formGroupExampleInput">Date Of Birth</label>
+              <input type="number" class="form-control" id="date" max="31" placeholder="Date">
             </div>
             <div class="form-group">
-                <label for="formGroupExampleInput">Example label</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                <label for="formGroupExampleInput">Month</label>
+                <input type="number" class="form-control" id="month" max="12" placeholder="Month">
               </div>
             <div class="form-group">
-              <label for="formGroupExampleInput2">Another label</label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-            </div><div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                  Default radio
-                </label>
-              </div><div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                  Default radio
+              <label for="formGroupExampleInput2">Year</label>
+              <input type="number" class="form-control" id="year" placeholder="Year">
+            </div>
+            <div class="form-check text-white">
+                <input class="form-check-input" type="radio" name="gender" id="femaleGender" value="female" >
+                <label class="form-check-label" for="female">
+                  Female
                 </label>
               </div>
-              <button type="button" class="btn btn-primary">Primary</button>
-              <button type="button" class="btn btn-primary">Primary</button>
+
+              <div class="form-check text-white">
+                <input class="form-check-input" type="radio" name="gender" id="maleGender" value="male" >
+                <label class="form-check-label" for="male">
+                  Male
+                </label>
+              </div>
+
+              <button type="button" type="submit" class="btn btn-primary">Get Akan Name</button>
+              <button type="reset" name="clear field" class="btn btn-primary">Clear</button>
 
 
 
@@ -50,5 +54,6 @@
           </form>
           
     </div>
+    
 </body>
 </html>
