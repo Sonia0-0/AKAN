@@ -10,7 +10,7 @@ This is a project that establishes the birth date, month and year of either a ma
 * Open the live  site on gh-page link in the description.
 
 ## Known Bugs
-* There are no known bugs detected.
+* There are no known bugs detected at the moment.
 
 ## Technologies Used
 * HTML
