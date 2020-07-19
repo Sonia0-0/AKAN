@@ -14,6 +14,14 @@ function getAkanName() {
   if (day < 1 || day > 31) {
     alert("Day must be greater than 1 and less than 31!"); // checks inputted day
   }
+  
+  if (month < 1 || month > 12) {
+    alert("Month must be greater than 1 and less than 12"); // checks inputted month
+  }
+
+
+
+
 
 
 
