@@ -23,6 +23,15 @@ function getAkanName() {
     alert("year must have four digits");
   }
 
+  else if (maleGender.checked) {
+    alert(
+      "You were born on a " + weekDays[dayBorn] + ", and your Akan name is " + maleNames[dayBorn]
+    );
+  }
+
+
+
+
 
 
 
