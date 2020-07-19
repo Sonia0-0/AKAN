@@ -193,6 +193,8 @@ figure {
 }
 
 img {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
   vertical-align: middle;
   border-style: none;
 }
