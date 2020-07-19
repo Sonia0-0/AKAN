@@ -18,6 +18,10 @@ function getAkanName() {
   if (month < 1 || month > 12) {
     alert("Month must be greater than 1 and less than 12"); // checks inputted month
   }
+  
+  if (year.toString().length !== 4) { // year validation
+    alert("year must have four digits");
+  }
 
 
 
